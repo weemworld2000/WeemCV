@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โชว์ผลงาน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #231fbf;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background: linear-gradient(45deg,#231fbf,#69175f);
+            padding: 20px;
+        }
+
+        .project {
+            width: 30%;
+            background-color: #ffffff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .project-description {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .project-title {
+            color: #69175f;
+            font-size: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project {
+                width: 80%;
+            }
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-box {
+            background-color: #231fbf;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid #69175f;
+            border-radius: 10px;
+        }
+
+        h4 {
+            margin: 0;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="project">
+            <img src="profile.jpg" alt="Project 1">
+            <div class="project-title">โปรเจกต์ 1</div>
+            <div class="project-description">
+                <p>นี่คือรายละเอียดของโปรเจกต์ 1 โดยทีมสี #231fbf</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="profile.jpg" alt="Project 2">
+            <div class="project-title">โปรเจกต์ 2</div>
+            <div class="project-description">
+                <p>นี่คือรายละเอียดของโปรเจกต์ 2 โดยทีมสี #231fbf</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="profile.jpg" alt="Project 3">
+            <div class="project-title">โปรเจกต์ 3</div>
+            <div class="project-description">
+                <p>นี่คือรายละเอียดของโปรเจกต์ 3 โดยทีมสี #231fbf</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="profile.jpg" alt="Project 3">
+            <div class="project-title">โปรเจกต์ 3</div>
+            <div class="project-description">
+                <p>นี่คือรายละเอียดของโปรเจกต์ 3 โดยทีมสี #231fbf</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
